@@ -1,7 +1,13 @@
 html, body {
     height: 100%;
   }
-  
+.label {
+     position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+}
   .wrap {
     height: 100%;
     display: flex;
